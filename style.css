@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+input{
+    border: 0;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    margin-top: 40px;
+}
+#name{
+    margin-right: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    margin-top: 30px;
+    
+}
+button{
+    border: 0px;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+#submit{
+    background-color: green;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#cancel{
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#eventos{
+    background-color: blue;
+    border-radius: 5px;
+}
+section{
+    margin-top: 230px;
+    width: 430px;
+  
+}
+.header-tabela{
+    display: flex;
+    justify-content: space-between;
+    
+}
+table{
+    margin-top: 40px;
+    
+}
+thead th{
+    text-align: start;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+}
+p{
+    margin-top: 20px;
+}
+tr,td{
+    width: 300px;
+    height: 30px;
+}
+.hide{
+    display: none;
+}
+.input-border{
+    border: 1px solid red;
+}

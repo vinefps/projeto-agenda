@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h3>AGENDA VIRTUAL:</h3>
+        </header>
+        <form id="formNovoEvento">
+            <div class="inputs">
+                <label> NOME:
+                    <input type="text" name="nome" placeholder="DIGITE AQUI SEU NOME" id="name" /> 
+                </label>
+            </div>
+            <div class="buttons">
+                <button id="submit">ENVIAR</button>
+                <button id="cancel">CANCELAR</button>
+            </div>
+        </form>
+        <section>
+            <header class="header-tabela">
+                <h2>EVENTOS:</h2>
+                <button id="eventos">EVENTO</button>
+            </header>
+            <main class="mainTabela hide">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>NOME</th>
+                            <th>EMAIL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabelaEventos">
+                        
+                    </tbody>
+                </table>
+            </main>
+        </section>
+    </div>
+</body>
+</html>
